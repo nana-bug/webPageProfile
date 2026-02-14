@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
         {/* Main Title with Chrome Gradient */}
         <h1 className="text-6xl md:text-8xl font-mono font-bold tracking-tighter uppercase leading-none">
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-200 to-slate-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">
-            Senior AI
+            AI
           </span>
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-violet via-fuchsia-400 to-electric-blue drop-shadow-[0_0_20px_rgba(168,85,247,0.4)]">
