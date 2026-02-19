@@ -26,7 +26,7 @@ export const Navbar: React.FC = () => {
               <Cpu className="text-neon-violet w-6 h-6" />
             </div>
             <a href="#home" className="text-2xl font-mono font-bold text-white tracking-widest group-hover:text-neon-violet transition-colors">
-              NEURO<span className="text-slate-500">_DEV</span>
+              MATHEMATICIAN<span className="text-slate-500">_DEV</span>
             </a>
           </div>
 
