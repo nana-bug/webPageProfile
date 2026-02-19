@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
     const { name, email, message } = formData;
     const subject = encodeURIComponent(`Contact from Portfolio: ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-    window.location.href = `mailto:ilce.medmen@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${import.meta.env.VITE_EMAIL}?subject=${subject}&body=${body}`;
   };
 
   return (
